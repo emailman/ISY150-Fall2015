@@ -1,6 +1,7 @@
 __author__ = 'emailman'
 
 done = False
+
 while not done:
     try:
         reply1, reply2 = input('Enter two integers, two zeros when done: ').split()
