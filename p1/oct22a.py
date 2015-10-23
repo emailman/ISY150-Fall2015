@@ -1,6 +1,10 @@
 __author__ = 'emailman'
 
-reply = -1
-while reply != 0:
+done = False
+while not done:
     reply = int(input("Enter a positive integer, zero when done: "))
-    print("Your input doubled is", reply*2)
+    if reply != 0:
+        print("Your input doubled is", reply * 2)
+    else:
+        done = True
+print("All done")
