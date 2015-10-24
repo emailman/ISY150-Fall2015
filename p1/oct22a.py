@@ -2,6 +2,7 @@ __author__ = 'emailman'
 
 done = False
 
+# Loop until the "done" flag becomes true
 while not done:
     try:
         reply = int(input("Enter a positive integer, zero when done: "))
