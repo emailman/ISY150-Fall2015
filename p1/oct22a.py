@@ -5,7 +5,7 @@ done = False
 # Loop until the "done" flag becomes true
 while not done:
     try:
-        reply = int(input("Enter a positive integer, zero when done: "))
+        reply = int(input("Enter a integer, zero when done: "))
         if reply != 0:
             print("Your input doubled is", reply * 2)
         else:
