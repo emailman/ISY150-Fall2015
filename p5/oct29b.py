@@ -1,10 +1,12 @@
 __author__ = 'emailman'
 
-def min_max(arg1, arg2):
-    if arg1 >= arg2:
-        return arg2, arg1
-    else:
-        return arg1, arg2
 
-smaller, larger = min_max(12, 5)
-print('smaller=', smaller, "larger=", larger)
+# Note this function returns one argument
+def add(arg1, arg2):
+    return arg1 + arg2
+
+num1 = 3
+num2 = 4
+# Note the function is called within a "print" statement
+# Note the parameters are passed to the arguments based on argument name
+print('Twice the sum is', add(arg2=num1, arg1=num2) * 2)
