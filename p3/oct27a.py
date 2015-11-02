@@ -9,7 +9,6 @@ print(len(even_numbers))
 
 odd_numbers = list(range(1, 100, 2))
 print(odd_numbers)
-# print(odd_numbers[3])
 
 for i in range(3):
     print(odd_numbers[i])
