@@ -9,3 +9,4 @@ These are introductory programs in python.
 - p5/oct29b.py - Parameters passed to a function by keyword argument
 - p6/oct29c.py - Two return statements in a function and each return statement returns two values
 - p6/oct29d.py - Returning multiple values in a return statement using a conditional expression
+- p7/nov3a.py - Passing a list to a function and returning three values
