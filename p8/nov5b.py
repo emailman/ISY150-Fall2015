@@ -11,7 +11,7 @@ def main():
     # Print the file's contents
     for line in lines:
         # There will be an extra blank line if \n if not stripped from the end
-        print(line.rstrip('\n'))
+        print(line, end='')
 
     # Close the file
     data_file.close()
