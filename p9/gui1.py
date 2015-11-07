@@ -1,19 +1,19 @@
-__author__ = 'emailman'
+from tkinter import *
 
-import tkinter
+__author__ = 'emailman'
 
 
 def main():
     # Create a window
-    main_window = tkinter.Tk()
+    window = Tk()
 
     # Create a label
-    label = tkinter.Label(main_window, text='Hello World')
+    label = Label(window, text='Hello World')
 
     # Put the label in the window on the left side
-    label.pack(side='left')
+    label.pack(side=LEFT)
 
-    tkinter.mainloop()
+    window.mainloop()
 
 
 main()

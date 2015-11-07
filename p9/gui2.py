@@ -1,23 +1,24 @@
-__author__ = 'emailman'
+from tkinter import *
 
-import tkinter
+__author__ = 'emailman'
 
 
 def main():
     # Create a window
-    main_window = tkinter.Tk()
+    window = Tk()
 
     # Create a label
-    label1 = tkinter.Label(main_window, text='Hello World!')
+    label1 = Label(window, text='Hello World!')
 
     # Create a label
-    label2 = tkinter.Label(main_window, text="I don't like spam!")
+    label2 = Label(window, text="I don't like spam!")
 
-    # Put the label in the window on the left side
-    label1.pack(side='top')
-    label2.pack(side='top')
+    # Put the labels in the window, packed from the top
+    # (centered horizontally by default
+    label1.pack(side=TOP)
+    label2.pack(side=TOP)
 
-    tkinter.mainloop()
+    window.mainloop()
 
 
 main()
