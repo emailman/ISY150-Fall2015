@@ -3,11 +3,10 @@ import tkinter.messagebox
 
 __author__ = 'emailman'
 
-# Create a window
-window = Tk()
-
 
 def main():
+    # Create a window
+    window = Tk()
 
     # Create a label
     label1 = Label(window, text='Hello World!')
