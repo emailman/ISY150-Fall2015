@@ -3,11 +3,11 @@ from tkinter import *
 __author__ = 'emailman'
 
 # Create the text field objects
-annual_interest_rate = ""
-number_of_years = ""
-loan_amount = ""
-monthly_payment = ""
-total_payment = ""
+annual_interest_rate = StringVar
+number_of_years = StringVar
+loan_amount = StringVar
+monthly_payment = StringVar
+total_payment = StringVar
 
 
 def main():
