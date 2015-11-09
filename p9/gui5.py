@@ -57,7 +57,7 @@ def main():
     Button(window, bg="RED", fg="BLUE", text="Quit",
            command=window.destroy).grid(row=6, column=0, padx=20, pady=10, sticky=W)
 
-    Button(window, bg="GREEN", fg="YELLOW", text="Calculate", command=payment_calc)\
+    Button(window, bg="GREEN", fg="RED", text="Calculate", command=payment_calc)\
         .grid(row=6, column=1, padx=20, pady=10, sticky=E)
 
     window.mainloop()
