@@ -20,7 +20,7 @@ def main():
         grid(row=1, column=0, sticky=W, padx="5", pady="2")
     Label(window, text="Number of Years").\
         grid(row=2, column=0, sticky=W, padx="5", pady="2")
-    Label(window, text="Loan Payment").\
+    Label(window, text="Loan Amount").\
         grid(row=3, column=0, sticky=W, padx="5", pady="2")
     Label(window, text="Monthly Payment", fg="BLUE")\
         .grid(row=4, column=0, sticky=W, padx="5", pady="5")
@@ -72,7 +72,7 @@ def payment_calc():
     monthly_payment.set(format(monthly_pay, "10.2f"))
 
     # Calculate the total payment and put it in the text field
-    total = float(monthly_payment.get()) * 12 * int(number_of_years.get())
+    total = float(monthly_pay * 12) * int(number_of_years.get())
     total_payment.set(format(total, "10.2f"))
 
 

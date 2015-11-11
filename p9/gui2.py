@@ -2,6 +2,7 @@ from tkinter import *
 
 __author__ = 'emailman'
 
+# Using the pack manager
 
 def main():
     # Create a window
