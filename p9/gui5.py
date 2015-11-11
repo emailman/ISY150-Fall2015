@@ -2,6 +2,8 @@ from tkinter import *
 
 __author__ = 'emailman'
 
+# Creating a form and using the grid layout manager
+
 # Create the text field objects
 annual_interest_rate = StringVar
 number_of_years = StringVar
