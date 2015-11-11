@@ -18,3 +18,4 @@ These are introductory programs in python.
 - p9/gui3 - Add a button to a window and set the button's action to a function
 - p9/gui4 - Add a CANCEL button and use a frame
 - p9/gui5 - Create a form using text entry fields
+- p9/gui6 - Using radio buttons and checkboxes on a form
