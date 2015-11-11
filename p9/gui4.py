@@ -3,6 +3,7 @@ import tkinter.messagebox
 
 __author__ = 'emailman'
 
+# Using frames and adding a QUIT button
 
 def main():
     # Create a window
