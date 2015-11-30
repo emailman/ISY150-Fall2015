@@ -5,15 +5,6 @@ __author__ = 'emailman'
 
 # Using tkinter radio buttons and check boxes
 
-# Define the radio button variables
-rb_sandwich_var = IntVar
-rb_bread_var = IntVar
-
-# Define the checkbox variables
-ck_ketchup_var = IntVar
-ck_mayo_var = IntVar
-ck_mustard_var = IntVar
-
 
 def main():
     # Create a window
